@@ -6,18 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>第一篇博客 | cnzc&#39;s blog</title>
+  <title>javaScript小例子 | cnzc&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#这里是正文，用markdown写，你可以选择写一段显示在首页的简介后，加上">
+  <meta name="description" content="搜索框效果123456789101112131415161718192021/** * @param inputName：文本框id * @param searchObj：搜索的UL的id */function searchName(inputName, searchObj) &amp;#123;        $(&quot;#&quot; + inputName).on(&quot;input propertychange&quot;, f">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一篇博客">
-<meta property="og:url" content="http://yoursite.com/2016/12/07/第一篇博客/index.html">
+<meta property="og:title" content="javaScript小例子">
+<meta property="og:url" content="http://yoursite.com/2016/12/07/javascript小例子/index.html">
 <meta property="og:site_name" content="cnzc's blog">
-<meta property="og:description" content="#这里是正文，用markdown写，你可以选择写一段显示在首页的简介后，加上">
-<meta property="og:updated_time" content="2016-12-07T13:05:26.174Z">
+<meta property="og:description" content="搜索框效果123456789101112131415161718192021/** * @param inputName：文本框id * @param searchObj：搜索的UL的id */function searchName(inputName, searchObj) &amp;#123;        $(&quot;#&quot; + inputName).on(&quot;input propertychange&quot;, f">
+<meta property="og:updated_time" content="2016-12-07T14:04:49.540Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="第一篇博客">
-<meta name="twitter:description" content="#这里是正文，用markdown写，你可以选择写一段显示在首页的简介后，加上">
+<meta name="twitter:title" content="javaScript小例子">
+<meta name="twitter:description" content="搜索框效果123456789101112131415161718192021/** * @param inputName：文本框id * @param searchObj：搜索的UL的id */function searchName(inputName, searchObj) &amp;#123;        $(&quot;#&quot; + inputName).on(&quot;input propertychange&quot;, f">
   
     <link rel="alternative" href="/atom.xml" title="cnzc&#39;s blog" type="application/atom+xml">
   
@@ -141,26 +141,27 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-第一篇博客" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-javascript小例子" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      第一篇博客
+      javaScript小例子
     </h1>
   
 
-        <a href="/2016/12/07/第一篇博客/" class="archive-article-date">
-  	<time datetime="2016-12-07T12:59:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-07</time>
+        <a href="/2016/12/07/javascript小例子/" class="archive-article-date">
+  	<time datetime="2016-12-07T13:31:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-07</time>
 </a>
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#这里是正文，用markdown写，你可以选择写一段显示在首页的简介后，加上<br><a id="more"></a>#在之前的内容会显示在首页，之后的内容会被隐藏，当游客点击Read more才能看到。</p>
-
+        <h2 id="搜索框效果"><a href="#搜索框效果" class="headerlink" title="搜索框效果"></a>搜索框效果</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment">/** </span></div><div class="line">* @param inputName：文本框id </div><div class="line">* @param searchObj：搜索的UL的id </div><div class="line">*/</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">searchName</span>(<span class="params">inputName, searchObj</span>) </span>&#123;    </div><div class="line">    $(<span class="string">"#"</span> + inputName).on(<span class="string">"input propertychange"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;        </div><div class="line">        <span class="keyword">var</span> inputVal = $(<span class="string">"#"</span> + inputName).val();        </div><div class="line">        <span class="keyword">if</span> (inputVal != <span class="string">""</span>) &#123;            </div><div class="line">            <span class="keyword">var</span> searchObjLength = $(<span class="string">"#"</span> + searchObj + <span class="string">"&gt;li"</span>).length;            </div><div class="line">            $(<span class="string">"#"</span> + searchObj + <span class="string">"&gt;li"</span>).addClass(<span class="string">"hide"</span>);            </div><div class="line">            <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; searchObjLength; i++) &#123;                </div><div class="line">                <span class="keyword">if</span> (($(<span class="string">"#"</span> + searchObj + <span class="string">"&gt;li"</span>).eq(i).text().toLowerCase()).indexOf(inputVal.toLowerCase()) != <span class="number">-1</span>) &#123;    </div><div class="line">                    $(<span class="string">"#"</span> + searchObj + <span class="string">"&gt;li"</span>).eq(i).removeClass(<span class="string">"hide"</span>);                </div><div class="line">                &#125;            </div><div class="line">            &#125;        </div><div class="line">        &#125; <span class="keyword">else</span> &#123;            </div><div class="line">            $(<span class="string">"#"</span> + searchObj + <span class="string">"&gt;li"</span>).removeClass(<span class="string">"hide"</span>);        </div><div class="line">        &#125;    </div><div class="line">    &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong><a id="more"></a></strong></p>
+<h2 id="上移下移"><a href="#上移下移" class="headerlink" title="上移下移"></a>上移下移</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line">$(<span class="string">"#key_group_model_warp .table_td_text1_move_up_a"</span>).on(<span class="string">"click"</span>,</div><div class="line">	<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">	    <span class="keyword">var</span> $tr = $(<span class="keyword">this</span>).parent().parent();</div><div class="line">	 <span class="keyword">if</span> ($tr.index() != <span class="number">1</span>) &#123;</div><div class="line">	    $tr.prev().before($tr);</div><div class="line">	 &#125;</div><div class="line">    resetKeyGroupTrStyle();</div><div class="line">&#125;);</div><div class="line">$(<span class="string">"#key_group_model_warp .table_td_text1_move_down_a"</span>).on(<span class="string">"click"</span>,</div><div class="line">	<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">	    <span class="keyword">var</span> $tr = $(<span class="keyword">this</span>).parent().parent(<span class="string">"tr"</span>);</div><div class="line">	    $tr.next().after($tr);</div><div class="line">	    resetKeyGroupTrStyle();</div><div class="line">&#125;);</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">resetKeyGroupTrStyle</span>(<span class="params"></span>) </span>&#123;</div><div class="line">     <span class="keyword">var</span> tr_count = <span class="number">6</span>;</div><div class="line">     <span class="keyword">if</span> (key_group_info.style == <span class="string">"l"</span>) &#123;</div><div class="line">         tr_count = <span class="number">6</span>;</div><div class="line">     &#125; <span class="keyword">else</span> <span class="keyword">if</span> (key_group_info.style == <span class="string">"m"</span>) &#123;</div><div class="line">        tr_count = <span class="number">4</span>;</div><div class="line">     &#125; <span class="keyword">else</span> <span class="keyword">if</span> (key_group_info.style == <span class="string">"s"</span>) &#123;</div><div class="line">        tr_count = <span class="number">2</span>;</div><div class="line">     &#125;</div><div class="line">     $(<span class="string">"#key_group_model_warp tr"</span>).find(<span class="string">"a"</span>).css(&#123;</div><div class="line">     <span class="string">"color"</span>: <span class="string">"#337ab7"</span>,</div><div class="line">     <span class="string">"pointer-events"</span>: <span class="string">"auto"</span></div><div class="line">     &#125;);</div><div class="line">     $(<span class="string">"#key_group_model_warp tr"</span>).eq(<span class="number">1</span>).find(<span class="string">"a"</span>).eq(<span class="number">1</span>).css(&#123;</div><div class="line">     <span class="string">"color"</span>: <span class="string">"#ddd"</span>,</div><div class="line">     <span class="string">"pointer-events"</span>: <span class="string">"none"</span></div><div class="line">     &#125;);</div><div class="line">     $(<span class="string">"#key_group_model_warp tr"</span>).eq(tr_count).find(<span class="string">"a"</span>).eq(<span class="number">2</span>).css(&#123;</div><div class="line">     <span class="string">"color"</span>: <span class="string">"#ddd"</span>,</div><div class="line">     <span class="string">"pointer-events"</span>: <span class="string">"none"</span></div><div class="line">     &#125;);</div><div class="line">&#125;​﻿​</div></pre></td></tr></table></figure>
       
 
       
@@ -191,15 +192,10 @@
       
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客，文章/">博客，文章</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javaScript/">javaScript</a></li></ul>
 	</div>
 
       
-	<div class="article-category tagcloud">
-	<i class="icon-book icon"></i>
-	<a class="article-category-link" href="/categories/blog/">blog</a>
-	</div>
-
 
       
 
@@ -249,7 +245,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2016/12/07/第一篇博客/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2016/12/07/javascript小例子/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -263,15 +259,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2016/12/07/javascript小例子/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          javaScript小例子
-        
-      </div>
-    </a>
   
+    <a href="/2016/12/07/第一篇博客/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">第一篇博客</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
